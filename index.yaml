@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   redis:
   - appVersion: 4.0.10
-    created: 2018-07-05T14:26:06.066076918+05:30
+    created: 2018-07-09T17:17:18.43775464+05:30
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -23,4 +23,20 @@ entries:
     urls:
     - redis-3.6.0.tgz
     version: 3.6.0
-generated: 2018-07-05T14:26:06.063225303+05:30
+  tomcat:
+  - apiVersion: v1
+    appVersion: "7"
+    created: 2018-07-09T17:05:04.57036633+05:30
+    description: Deploy a basic tomcat application server with sidecar as web archive
+      container
+    digest: c4192c472a07a96c258282b4b2a25cb11f7b0369a83fffcb883302561aa181ac
+    home: https://github.com/yahavb
+    icon: http://tomcat.apache.org/res/images/tomcat.png
+    maintainers:
+    - email: ybiran@ananware.systems
+      name: yahavb
+    name: tomcat
+    urls:
+    - https://github.com/kishr4u/helm-ara/tomcat-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-07-09T17:17:18.435072294+05:30
