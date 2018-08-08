@@ -39,4 +39,21 @@ entries:
     urls:
     - https://github.com/kishr4u/helm-ara/tomcat-0.1.0.tgz
     version: 0.1.0
-generated: 2018-07-09T17:17:18.435072294+05:30
+  nginx-samp:
+  - apiVersion: v1
+    appVersion: "7"
+    created: 2018-07-09T17:05:04.57036633+05:30
+    description: Deploy a basic nginx
+      container
+    digest: c4192c472a07a96c258282b4b2a25cb11f7b0369a83fffcb883302561aa181ac
+    home: https://github.com/kishr4u
+    icon: http://tomcat.apache.org/res/images/tomcat.png
+    maintainers:
+    - email: kishore.jagannath@microfocus.com
+      name: kishore
+    name: nginx
+    urls:
+    - https://github.com/kishr4u/helm-ara/nginx-sample-0.1.0.tgz
+    version: 0.1.0
+
+generated: 2018-08-08T15:50:12.681001645+05:30
